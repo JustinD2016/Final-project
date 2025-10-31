@@ -1,0 +1,5 @@
+.quarto/
+site_libs/
+# we each have to render the report files (optional removal)
+_report_files/
+.venv/

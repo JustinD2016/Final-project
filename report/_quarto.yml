@@ -1,0 +1,22 @@
+project:
+  type: manuscript
+  output-dir: _report_files
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    embed-resources: true
+    theme:
+      - journal
+      - brand
+    toc: true
+  docx: default
+  pdf: default
+
+execute:
+  freeze: true
+
+
+
