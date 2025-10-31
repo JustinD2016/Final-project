@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
-annual = pd.read_csv('combined_bank_data_annual.csv')
+annual = pd.read_csv('../data/combined_bank_data_annual.csv')
 #print(annual.head())
 # 1. What's the total size of your dataset?
 print(f"Total rows: {len(annual)}")
