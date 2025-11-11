@@ -1,0 +1,189 @@
+Field_ID,Table,Description,Data_Type,Importance,Innovation_Metric
+rssd9001,ALL,Federal Reserve RSSD ID - Unique bank identifier,Integer,Critical,No
+rssd9017,ALL,Bank Legal Name,String,High,No
+rssd9999,ALL,Report Date (YYYYMMDD or ISO format),Date,Critical,No
+rcfd0010,RCFD_1,Cash and balances due from depository institutions,Currency ($000s),Medium,No
+rcfd0022,RCFD_1,Interest-bearing balances,Currency ($000s),Low,No
+rcfd0070,RCFD_1,Federal funds sold in domestic offices,Currency ($000s),Low,No
+rcfd0071,RCFD_1,Securities purchased under agreements to resell,Currency ($000s),Low,No
+rcfd0073,RCFD_1,Total federal funds sold and securities purchased under agreements to resell,Currency ($000s),Medium,No
+rcfd0074,RCFD_1,Federal funds sold in foreign offices,Currency ($000s),Low,No
+rcfd0081,RCFD_1,Cash items in process of collection,Currency ($000s),Low,No
+rcfd0082,RCFD_1,Deposits with banks in foreign countries,Currency ($000s),Low,No
+rcfd0083,RCFD_1,Deposits with Federal Reserve Bank,Currency ($000s),Medium,No
+rcfd0085,RCFD_1,Currency and coin,Currency ($000s),Low,No
+rcfd0090,RCFD_1,Balances due from Federal Reserve Banks,Currency ($000s),Medium,No
+rcfd0426,RCFD_1,Interest-bearing transaction accounts,Currency ($000s),Low,No
+rcfd1248,RCFD_1,Loans to U.S. addressees (non-depository),Currency ($000s),Low,No
+rcfd1249,RCFD_1,Loans to non-U.S. addressees (non-depository),Currency ($000s),Low,No
+rcfd1250,RCFD_1,Loans to depository institutions in U.S.,Currency ($000s),Low,No
+rcfd1251,RCFD_1,Loans to banks in foreign countries,Currency ($000s),Low,No
+rcfd1252,RCFD_1,Loans to foreign governments,Currency ($000s),Low,No
+rcfd1253,RCFD_1,Other international loans,Currency ($000s),Low,No
+rcfd1254,RCFD_1,Lease financing receivables (net of unearned income),Currency ($000s),Medium,No
+rcfd1350,RCFD_1,Federal funds sold and securities purchased under agreements to resell,Currency ($000s),Medium,No
+rcfd1590,RCFD_1,Loans for agricultural production and other loans to farmers,Currency ($000s),Medium,No
+rcfd1754,RCFD_1,Held-to-maturity securities,Currency ($000s),High,No
+rcfd1773,RCFD_1,Available-for-sale securities,Currency ($000s),High,No
+rcfd2011,RCFD_1,"Loans to individuals for household, family, and other personal expenditures",Currency ($000s),High,No
+rcfd2150,RCFD_1,Goodwill and other intangible assets,Currency ($000s),Medium,No
+rcfd3000,RCFD_1,Total bank equity capital,Currency ($000s),Critical,No
+rcfd3123,RCFD_1,Allowance for loan and lease losses,Currency ($000s),High,No
+rcfd1403,RCFD_2,Total nonaccrual loans,Currency ($000s),High,No
+rcfd1406,RCFD_2,Loans and leases 30-89 days past due and still accruing,Currency ($000s),High,No
+rcfd1407,RCFD_2,Loans and leases 90+ days past due and still accruing,Currency ($000s),High,No
+rcfd1410,RCFD_2,Loans secured by real estate,Currency ($000s),High,No
+rcfd1420,RCFD_2,Loans secured by farmland,Currency ($000s),Medium,No
+rcfd1460,RCFD_2,Loans secured by multifamily (5 or more) residential properties,Currency ($000s),Medium,No
+rcfd1652,RCFD_2,Loans to finance agricultural production,Currency ($000s),Low,No
+rcfd1658,RCFD_2,Commercial and industrial loans to U.S. addressees,Currency ($000s),Medium,No
+rcfd1659,RCFD_2,Commercial and industrial loans to non-U.S. addressees,Currency ($000s),Low,No
+rcfd1661,RCFD_2,Acceptances of other banks,Currency ($000s),Low,No
+rcfd1662,RCFD_2,Loans to foreign governments and official institutions,Currency ($000s),Low,No
+rcfd2122,RCFD_2,"Total loans and leases, net of unearned income",Currency ($000s),Critical,No
+rcfd2170,RCFD_2,Total assets (CONSOLIDATED),Currency ($000s),Critical,⭐ YES
+rcfd3210,RCFD_2,Total bank equity capital,Currency ($000s),Critical,No
+rcon0010,RCON_1,Cash and balances due from depository institutions (domestic),Currency ($000s),Medium,No
+rcon1350,RCON_1,Federal funds sold (domestic),Currency ($000s),Medium,No
+rcon1400,RCON_1,Total loans and leases held for sale (domestic),Currency ($000s),Medium,No
+rcon1410,RCON_1,Loans secured by real estate (domestic),Currency ($000s),High,No
+rcon1420,RCON_1,Loans secured by farmland (domestic),Currency ($000s),Medium,No
+rcon1590,RCON_1,Agricultural production loans (domestic),Currency ($000s),Medium,No
+rcon1754,RCON_1,Held-to-maturity securities (domestic),Currency ($000s),High,No
+rcon1766,RCON_1,Commercial and industrial loans (domestic),Currency ($000s),High,No
+rcon1773,RCON_1,Available-for-sale securities (domestic),Currency ($000s),High,No
+rcon3000,RCON_1,Total bank equity capital (domestic),Currency ($000s),Critical,No
+rcon3123,RCON_1,Allowance for loan and lease losses (domestic),Currency ($000s),High,No
+rcon0081,RCON_2,Cash items in process of collection (domestic),Currency ($000s),Low,No
+rcon1403,RCON_2,Total nonaccrual loans (domestic),Currency ($000s),High,No
+rcon1415,RCON_2,Construction and land development loans (domestic),Currency ($000s),Medium,No
+rcon1420,RCON_2,Loans secured by farmland (domestic),Currency ($000s),Medium,No
+rcon1460,RCON_2,Multifamily residential property loans (domestic),Currency ($000s),Medium,No
+rcon1480,RCON_2,Nonfarm nonresidential property loans (domestic),Currency ($000s),Medium,No
+rcon2011,RCON_2,Consumer loans (domestic),Currency ($000s),High,No
+rcon2122,RCON_2,Total loans and leases net (domestic),Currency ($000s),Critical,No
+rcon2150,RCON_2,Goodwill (domestic),Currency ($000s),Medium,No
+rcon2170,RCON_2,Total assets (DOMESTIC - USE POST-2011),Currency ($000s),Critical,⭐ YES
+rcon2200,RCON_2,Total deposits (domestic),Currency ($000s),Critical,⭐ YES
+rcon2202,RCON_2,Total transaction accounts (domestic),Currency ($000s),High,No
+rcon2203,RCON_2,Demand deposits (domestic),Currency ($000s),Medium,No
+rcon2206,RCON_2,NOW accounts (domestic),Currency ($000s),Medium,No
+rcon2210,RCON_2,Money market deposit accounts (domestic),Currency ($000s),Medium,No
+rcon2213,RCON_2,Other savings deposits (domestic),Currency ($000s),Medium,No
+rcon2214,RCON_2,Total time deposits under $100K (domestic),Currency ($000s),Medium,No
+rcon2215,RCON_2,Total nontransaction accounts (domestic),Currency ($000s),High,No
+rcon2216,RCON_2,Total time deposits $100K or more (domestic),Currency ($000s),Medium,No
+rcon2230,RCON_2,Total time deposits (domestic),Currency ($000s),High,No
+rcon2604,RCON_2,Federal funds purchased (domestic),Currency ($000s),Medium,No
+rcon3210,RCON_2,Total bank equity capital (domestic),Currency ($000s),Critical,No
+rcon6631,RCON_2,Noninterest-bearing deposits (DIGITAL BANKING PROXY),Currency ($000s),Critical,⭐ YES
+riad0497,RIAD_1,Data processing expense - alternative field,Currency ($000s),High,⭐ YES
+riad4010,RIAD_1,Total interest income,Currency ($000s),High,No
+riad4011,RIAD_1,Interest income on loans secured by real estate,Currency ($000s),Medium,No
+riad4012,RIAD_1,Interest income on loans to depository institutions,Currency ($000s),Low,No
+riad4020,RIAD_1,Total interest expense,Currency ($000s),High,No
+riad4024,RIAD_1,Interest expense on deposits,Currency ($000s),Medium,No
+riad4042,RIAD_1,Income from fiduciary activities,Currency ($000s),Medium,No
+riad4056,RIAD_1,Trading revenue,Currency ($000s),Medium,No
+riad4058,RIAD_1,Interest rate exposures trading revenue,Currency ($000s),Low,No
+riad4059,RIAD_1,Foreign exchange exposures trading revenue,Currency ($000s),Low,No
+riad4060,RIAD_1,Equity security and index exposures trading revenue,Currency ($000s),Low,No
+riad4065,RIAD_1,"Investment banking, advisory, brokerage fees",Currency ($000s),Medium,No
+riad4069,RIAD_1,Venture capital revenue,Currency ($000s),Low,No
+riad4070,RIAD_1,Net servicing fees,Currency ($000s),Medium,No
+riad4073,RIAD_1,Net securitization income,Currency ($000s),Low,No
+riad4074,RIAD_1,Net interest income,Currency ($000s),Critical,⭐ YES
+riad4075,RIAD_1,Insurance commissions and fees,Currency ($000s),Low,No
+riad4076,RIAD_1,Net gains (losses) on sales of loans,Currency ($000s),Medium,No
+riad4077,RIAD_1,Net gains (losses) on sales of other real estate owned,Currency ($000s),Low,No
+riad4078,RIAD_1,Net gains (losses) on sales of other assets,Currency ($000s),Low,No
+riad4079,RIAD_1,Total noninterest income (DIVERSIFICATION),Currency ($000s),Critical,⭐ YES
+riad4080,RIAD_1,Service charges on deposit accounts,Currency ($000s),Critical,⭐ YES
+riad4091,RIAD_1,Other noninterest income,Currency ($000s),Medium,No
+riad4092,RIAD_1,Data processing expense (INNOVATION PROXY),Currency ($000s),Critical,⭐ YES
+riad4093,RIAD_1,Total noninterest expense (EFFICIENCY),Currency ($000s),Critical,⭐ YES
+riad4097,RIAD_1,Expenses of premises and fixed assets,Currency ($000s),Medium,No
+riad4107,RIAD_1,Total interest and fee income on loans,Currency ($000s),High,No
+riad4115,RIAD_1,Net occupancy expense of premises,Currency ($000s),Medium,No
+riad4135,RIAD_1,Salaries and employee benefits,Currency ($000s),High,No
+riad4136,RIAD_1,Expenses of furniture and equipment,Currency ($000s),Low,No
+riad4141,RIAD_1,Amortization expense of intangible assets,Currency ($000s),Low,No
+riad4146,RIAD_1,Other noninterest expense,Currency ($000s),Medium,No
+riad4150,RIAD_1,Goodwill impairment losses,Currency ($000s),Low,No
+riad4172,RIAD_1,Provision for credit losses on off-balance sheet credit exposures,Currency ($000s),Low,No
+riad4180,RIAD_1,Realized gains (losses) on held-to-maturity securities,Currency ($000s),Low,No
+riad4185,RIAD_1,Realized gains (losses) on available-for-sale securities,Currency ($000s),Medium,No
+riad4200,RIAD_1,Income (loss) before income taxes and extraordinary items,Currency ($000s),High,No
+riad4217,RIAD_1,"Extraordinary items and other adjustments, net of income taxes",Currency ($000s),Low,No
+riad4230,RIAD_1,Provision for loan and lease losses,Currency ($000s),High,No
+riad4235,RIAD_1,Recoveries on loans and leases,Currency ($000s),Medium,No
+riad4239,RIAD_1,Net charge-offs on loans and leases,Currency ($000s),High,No
+riad4266,RIAD_1,Current federal income tax expense,Currency ($000s),Low,No
+riad4267,RIAD_1,Current state and local income tax expense,Currency ($000s),Low,No
+riad4300,RIAD_1,Applicable income taxes (discontinued operations),Currency ($000s),Low,No
+riad4301,RIAD_1,Income before income taxes,Currency ($000s),High,No
+riad4302,RIAD_1,"Income from discontinued operations, net",Currency ($000s),Low,No
+riad4313,RIAD_1,Net income attributable to bank,Currency ($000s),High,No
+riad4320,RIAD_1,Applicable income taxes,Currency ($000s),Medium,No
+riad4340,RIAD_1,Net income (loss),Currency ($000s),Critical,No
+riad4341,RIAD_1,Net income attributable to minority interests,Currency ($000s),Low,No
+riad4356,RIAD_1,Other comprehensive income,Currency ($000s),Low,No
+riad4415,RIAD_1,Credit card fees,Currency ($000s),Medium,No
+riad4435,RIAD_1,Merchant credit card processing fees,Currency ($000s),Low,No
+riad4436,RIAD_1,Other credit card fees,Currency ($000s),Low,No
+riad4460,RIAD_1,Net gains (losses) on sales of AFS securities,Currency ($000s),Medium,No
+riad4461,RIAD_1,Unrealized gains (losses) on equity securities,Currency ($000s),Low,No
+riad4462,RIAD_1,Other-than-temporary impairment losses on debt securities,Currency ($000s),Low,No
+riad4463,RIAD_1,Debt securities gains (losses),Currency ($000s),Low,No
+riad4464,RIAD_1,Equity securities gains (losses),Currency ($000s),Low,No
+riad4467,RIAD_1,Gains (losses) on derivatives and hedging activities,Currency ($000s),Low,No
+riad4468,RIAD_1,Interest rate derivative gains (losses),Currency ($000s),Low,No
+riad4469,RIAD_1,Foreign exchange derivative gains (losses),Currency ($000s),Low,No
+riad4470,RIAD_1,Credit derivative gains (losses),Currency ($000s),Low,No
+riad4481,RIAD_1,Fees and commissions from securities brokerage,Currency ($000s),Low,No
+riad4482,RIAD_1,Investment banking fees,Currency ($000s),Low,No
+riad4486,RIAD_1,Fees and commissions from annuity sales,Currency ($000s),Low,No
+riad4487,RIAD_1,Underwriting income from insurance activities,Currency ($000s),Low,No
+riad4488,RIAD_1,Income from other insurance activities,Currency ($000s),Low,No
+riad4489,RIAD_1,Net gains (losses) on sales of other assets,Currency ($000s),Low,No
+riad4491,RIAD_1,Other noninterest income,Currency ($000s),Low,No
+riad4498,RIAD_1,Gains (losses) on extinguishment of debt,Currency ($000s),Low,No
+riad4499,RIAD_1,Loss on fair value option liabilities,Currency ($000s),Low,No
+riad4507,RIAD_1,Net gains (losses) on sales of loans - 1-4 family residential,Currency ($000s),Low,No
+riad4508,RIAD_1,Net gains (losses) on sales of loans - other,Currency ($000s),Low,No
+riad4513,RIAD_1,Fair value adjustments to loans,Currency ($000s),Low,No
+riad4518,RIAD_1,Gains (losses) on credit derivatives,Currency ($000s),Low,No
+riad4521,RIAD_1,Fees and commissions from trust activities,Currency ($000s),Low,No
+riad4522,RIAD_1,Wealth management fees,Currency ($000s),Low,No
+riad4531,RIAD_1,ATM and debit card interchange fees,Currency ($000s),Medium,No
+riad4605,RIAD_1,Charge-offs on loans secured by real estate,Currency ($000s),Medium,No
+riad4608,RIAD_1,Charge-offs on commercial and industrial loans,Currency ($000s),Medium,No
+riad4617,RIAD_1,Charge-offs on loans to individuals,Currency ($000s),Medium,No
+riad4618,RIAD_1,Charge-offs on credit cards,Currency ($000s),Medium,No
+riad4627,RIAD_1,Charge-offs on other loans,Currency ($000s),Low,No
+riad4628,RIAD_1,Charge-offs on agricultural loans,Currency ($000s),Low,No
+riad4635,RIAD_1,Total charge-offs on loans and leases,Currency ($000s),High,No
+riad4638,RIAD_1,Recoveries on commercial and industrial loans,Currency ($000s),Low,No
+riad4643,RIAD_1,Recoveries on loans secured by real estate,Currency ($000s),Low,No
+riad4644,RIAD_1,Recoveries on loans to individuals,Currency ($000s),Low,No
+riad4645,RIAD_1,Recoveries on credit cards,Currency ($000s),Low,No
+riad4646,RIAD_1,Recoveries on other loans,Currency ($000s),Low,No
+riad4652,RIAD_1,Charge-offs on construction and land development loans,Currency ($000s),Low,No
+riad4653,RIAD_1,Charge-offs on loans secured by farmland,Currency ($000s),Low,No
+riad4654,RIAD_1,Charge-offs on 1-4 family residential loans,Currency ($000s),Medium,No
+riad4655,RIAD_1,Charge-offs on multifamily residential loans,Currency ($000s),Low,No
+riad4658,RIAD_1,Charge-offs on nonfarm nonresidential loans,Currency ($000s),Low,No
+riad4659,RIAD_1,Recoveries on construction and land development loans,Currency ($000s),Low,No
+riad4662,RIAD_1,Recoveries on loans secured by farmland,Currency ($000s),Low,No
+riad4663,RIAD_1,Recoveries on 1-4 family residential loans,Currency ($000s),Low,No
+riad4664,RIAD_1,Recoveries on multifamily residential loans,Currency ($000s),Low,No
+riad4665,RIAD_1,Recoveries on nonfarm nonresidential loans,Currency ($000s),Low,No
+riad4668,RIAD_1,Charge-offs on automobile loans,Currency ($000s),Low,No
+riad4669,RIAD_1,Charge-offs on other consumer loans,Currency ($000s),Low,No
+riad4769,RIAD_1,Amortization and impairment of other intangible assets,Currency ($000s),Low,No
+riad4797,RIAD_1,Net gain (loss) on sales of available-for-sale securities,Currency ($000s),Low,No
+riad4815,RIAD_1,Interest income on interest-bearing deposits,Currency ($000s),Low,No
+riad4843,RIAD_1,Interest income on federal funds sold,Currency ($000s),Low,No
+riad4844,RIAD_1,Interest income on securities,Currency ($000s),Medium,No
+riad4845,RIAD_1,Interest income on trading assets,Currency ($000s),Low,No
+riad4846,RIAD_1,Interest income on other interest-earning assets,Currency ($000s),Low,No
