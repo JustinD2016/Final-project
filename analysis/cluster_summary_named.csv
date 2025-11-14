@@ -1,0 +1,15 @@
+bank_tier,cluster_name,bank_count
+Large,Quality Improvers,56
+Large,Digital Deposit Leaders,24
+Large,Loan Growth Focus,18
+Large,Noise,12
+Large,Securities Shifters,10
+Medium,Steady Performers,438
+Medium,High Growth Stars,65
+Medium,Noise,62
+Medium,Profitability Leaders,38
+Medium,Branch Consolidators,27
+Small,Traditional Majority,3233
+Small,Digital Transformers,191
+Small,Noise,135
+Small,Capital Constrained,75
